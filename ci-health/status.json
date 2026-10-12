@@ -1,0 +1,717 @@
+{
+ "schema": 1,
+ "generated_at": "2026-10-12T16:10:32+00:00",
+ "repo": "marenan/mlir-aie",
+ "window_days": 14,
+ "critical": [
+  {
+   "file": "buildAndTestRyzenAI.yml",
+   "title": "Linux hardware tests",
+   "every": 24,
+   "legs": true,
+   "why": "lit and IRON tests on npu1 and npu2; the only hardware test of main",
+   "runs": 1,
+   "main": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "latest_main": null,
+   "newest_main": null,
+   "latest_main_jobs": null,
+   "main_runs": [],
+   "pull_requests": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "merge_queue": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "flaky": {
+    "commits": 1,
+    "flaky": 0,
+    "rate": 0.0
+   },
+   "minutes_median": null,
+   "minutes_p90": null,
+   "queued_median": 0.0
+  },
+  {
+   "file": "buildAndTestRyzenAIWindows.yml",
+   "title": "Windows hardware tests",
+   "every": 24,
+   "legs": true,
+   "why": "the same on a Windows Strix Halo machine",
+   "runs": 1,
+   "main": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "latest_main": null,
+   "newest_main": null,
+   "latest_main_jobs": null,
+   "main_runs": [],
+   "pull_requests": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "merge_queue": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "flaky": {
+    "commits": 1,
+    "flaky": 0,
+    "rate": 0.0
+   },
+   "minutes_median": null,
+   "minutes_p90": null,
+   "queued_median": 0.0
+  },
+  {
+   "file": "buildAndTestMulti.yml",
+   "title": "Compile across platforms",
+   "every": 24,
+   "legs": false,
+   "why": "compilers, assertions and RTTI on Linux and Windows",
+   "runs": 2,
+   "main": {
+    "passed": 1,
+    "failed": 0,
+    "rate": 1.0
+   },
+   "latest_main": {
+    "id": 38196369343,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38196369343",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-12T02:35:18Z",
+    "run_started_at": "2026-10-12T02:35:18Z",
+    "updated_at": "2026-10-12T03:01:12Z",
+    "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+    "title": "[AIEX] Support the iteration attribute in dma_configure_task [MED] (#\u2026",
+    "attempt": 1
+   },
+   "newest_main": {
+    "id": 38196369343,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38196369343",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-12T02:35:18Z",
+    "run_started_at": "2026-10-12T02:35:18Z",
+    "updated_at": "2026-10-12T03:01:12Z",
+    "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+    "title": "[AIEX] Support the iteration attribute in dma_configure_task [MED] (#\u2026",
+    "attempt": 1
+   },
+   "latest_main_jobs": null,
+   "main_runs": [
+    {
+     "id": 38196369343,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38196369343",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T02:35:18Z",
+     "run_started_at": "2026-10-12T02:35:18Z",
+     "updated_at": "2026-10-12T03:01:12Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "[AIEX] Support the iteration attribute in dma_configure_task [MED] (#\u2026",
+     "attempt": 1
+    }
+   ],
+   "pull_requests": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "merge_queue": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "flaky": {
+    "commits": 1,
+    "flaky": 0,
+    "rate": 0.0
+   },
+   "minutes_median": 25.9,
+   "minutes_p90": 25.9,
+   "queued_median": 0.0
+  },
+  {
+   "file": "buildAndTestPythons.yml",
+   "title": "Python versions",
+   "every": 24,
+   "legs": false,
+   "why": "the tests on each supported Python",
+   "runs": 2,
+   "main": {
+    "passed": 1,
+    "failed": 0,
+    "rate": 1.0
+   },
+   "latest_main": {
+    "id": 38196369346,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38196369346",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-12T02:35:18Z",
+    "run_started_at": "2026-10-12T02:35:18Z",
+    "updated_at": "2026-10-12T02:53:17Z",
+    "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+    "title": "[AIEX] Support the iteration attribute in dma_configure_task [MED] (#\u2026",
+    "attempt": 1
+   },
+   "newest_main": {
+    "id": 38196369346,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38196369346",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-12T02:35:18Z",
+    "run_started_at": "2026-10-12T02:35:18Z",
+    "updated_at": "2026-10-12T02:53:17Z",
+    "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+    "title": "[AIEX] Support the iteration attribute in dma_configure_task [MED] (#\u2026",
+    "attempt": 1
+   },
+   "latest_main_jobs": null,
+   "main_runs": [
+    {
+     "id": 38196369346,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38196369346",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T02:35:18Z",
+     "run_started_at": "2026-10-12T02:35:18Z",
+     "updated_at": "2026-10-12T02:53:17Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "[AIEX] Support the iteration attribute in dma_configure_task [MED] (#\u2026",
+     "attempt": 1
+    }
+   ],
+   "pull_requests": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "merge_queue": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "flaky": {
+    "commits": 1,
+    "flaky": 0,
+    "rate": 0.0
+   },
+   "minutes_median": 18.0,
+   "minutes_p90": 18.0,
+   "queued_median": 0.0
+  },
+  {
+   "file": "lintAndFormat.yml",
+   "title": "Lint and format",
+   "every": 24,
+   "legs": false,
+   "why": "clang-tidy, pyright and the docs checks",
+   "runs": 1,
+   "main": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "latest_main": null,
+   "newest_main": null,
+   "latest_main_jobs": null,
+   "main_runs": [],
+   "pull_requests": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "merge_queue": {
+    "passed": 0,
+    "failed": 0,
+    "rate": null
+   },
+   "flaky": {
+    "commits": 1,
+    "flaky": 0,
+    "rate": 0.0
+   },
+   "minutes_median": null,
+   "minutes_p90": null,
+   "queued_median": 0.0
+  }
+ ],
+ "merge_time": {
+  "merged": 0,
+  "hours_median": null,
+  "hours_p90": null,
+  "open": 1,
+  "open_drafts": 0,
+  "open_over_30_days": 0
+ },
+ "workflows": [
+  {
+   "file": "nightlyKernelChecks.yml",
+   "title": "Kernel checks",
+   "every": 24,
+   "legs": true,
+   "why": "the Kernels section's numbers; a leg that found no runner publishes nothing",
+   "runs": [
+    {
+     "id": 38260394001,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38260394001",
+     "status": "queued",
+     "conclusion": null,
+     "created_at": "2026-10-12T14:05:40Z",
+     "run_started_at": "2026-10-12T14:05:40Z",
+     "updated_at": "2026-10-12T14:05:40Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Nightly Kernel Checks on Ryzen AI",
+     "attempt": 1
+    }
+   ],
+   "jobs": [
+    {
+     "name": "Kernel checks (aie2p-8col)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38260394001/job/114849092367",
+     "status": "queued",
+     "conclusion": null,
+     "created_at": "2026-10-12T14:05:41Z",
+     "started_at": "2026-10-12T14:05:41Z"
+    },
+    {
+     "name": "Kernel checks (aie2-4col)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38260394001/job/114849092569",
+     "status": "queued",
+     "conclusion": null,
+     "created_at": "2026-10-12T14:05:41Z",
+     "started_at": "2026-10-12T14:05:41Z"
+    }
+   ]
+  },
+  {
+   "file": "nightlyComponentChecks.yml",
+   "title": "Placement and performance checks",
+   "every": 24,
+   "legs": true,
+   "why": "the Performance and Placement sections' numbers",
+   "runs": [
+    {
+     "id": 38273744475,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38273744475",
+     "status": "pending",
+     "conclusion": null,
+     "created_at": "2026-10-12T15:55:31Z",
+     "run_started_at": "2026-10-12T15:55:31Z",
+     "updated_at": "2026-10-12T15:55:32Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Nightly Component Checks",
+     "attempt": 1
+    }
+   ],
+   "jobs": [
+    {
+     "name": "SA placer seed sweep (CPU-only)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38273744475/job/114894072051",
+     "status": "in_progress",
+     "conclusion": null,
+     "created_at": "2026-10-12T15:55:32Z",
+     "started_at": "2026-10-12T15:55:35Z"
+    },
+    {
+     "name": "SA placer hardware check (mobilenet, npu2)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38273744475/job/114894072937",
+     "status": "pending",
+     "conclusion": null,
+     "created_at": "2026-10-12T15:55:32Z",
+     "started_at": "2026-10-12T15:55:32Z"
+    }
+   ]
+  },
+  {
+   "file": "routerNightlyTests.yml",
+   "title": "Router model-based tests",
+   "every": 24,
+   "why": "the packet router against its model over a large corpus, plus mutation testing of both",
+   "runs": [
+    {
+     "id": 38241965960,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38241965960",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:20:00Z",
+     "run_started_at": "2026-10-12T11:20:00Z",
+     "updated_at": "2026-10-12T12:56:50Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Router nightly tests",
+     "attempt": 1
+    }
+   ],
+   "jobs": null
+  },
+  {
+   "file": "modelBasedTests.yml",
+   "title": "Allocator model-based tests",
+   "every": 24,
+   "why": "buffer placement against its model over a corpus many times check-aie's",
+   "runs": [
+    {
+     "id": 38239685818,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38239685818",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T10:58:44Z",
+     "run_started_at": "2026-10-12T10:58:44Z",
+     "updated_at": "2026-10-12T11:05:54Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Model-based tests",
+     "attempt": 1
+    }
+   ],
+   "jobs": null
+  },
+  {
+   "file": "buildRyzenWheels.yml",
+   "title": "Ryzen AI wheels",
+   "every": 24,
+   "legs": true,
+   "why": "refreshes the latest-wheels releases users install from",
+   "runs": [
+    {
+     "id": 38242512632,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632",
+     "status": "queued",
+     "conclusion": null,
+     "created_at": "2026-10-12T11:25:06Z",
+     "run_started_at": "2026-10-12T11:25:06Z",
+     "updated_at": "2026-10-12T11:54:45Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Build wheels for Ryzen AI",
+     "attempt": 1
+    }
+   ],
+   "jobs": [
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.13, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788337719",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:09Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.13, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788337911",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:11Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.14, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788337922",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.13, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788337969",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.12, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788337977",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.11, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788337981",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.11, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788337983",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.12, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338016",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.11, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338042",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.14, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338067",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.12, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338093",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.11, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338127",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.12, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338129",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.14, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338164",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (Windows) (3.14, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338209",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Build and upload mlir_aie wheels (3.13, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114788338268",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T11:25:07Z",
+     "started_at": "2026-10-12T11:25:10Z"
+    },
+    {
+     "name": "Smoke-Test Wheel on Ryzen AI",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114789838194",
+     "status": "completed",
+     "conclusion": "skipped",
+     "created_at": "2026-10-12T11:29:21Z",
+     "started_at": "2026-10-12T11:29:21Z"
+    },
+    {
+     "name": "Smoke-Test Wheel on Ryzen AI (Windows)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871601",
+     "status": "queued",
+     "conclusion": null,
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:45Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.13, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871746",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.11, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871764",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.13, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871765",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.11, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871799",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.14, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871803",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.12, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871883",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.12, ON)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798871930",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Smoke-test wheel (Windows) (3.14, OFF)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798872042",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:48Z"
+    },
+    {
+     "name": "Publish wheels",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38242512632/job/114798873382",
+     "status": "completed",
+     "conclusion": "skipped",
+     "created_at": "2026-10-12T11:54:45Z",
+     "started_at": "2026-10-12T11:54:45Z"
+    }
+   ]
+  },
+  {
+   "file": "mlirDistro.yml",
+   "title": "MLIR distro from LLVM head",
+   "every": 4,
+   "why": "early warning that upstream LLVM broke the build",
+   "runs": [
+    {
+     "id": 38244392916,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38244392916",
+     "status": "in_progress",
+     "conclusion": null,
+     "created_at": "2026-10-12T11:42:33Z",
+     "run_started_at": "2026-10-12T11:42:33Z",
+     "updated_at": "2026-10-12T11:42:48Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "MLIR Distro",
+     "attempt": 1
+    }
+   ],
+   "jobs": null
+  },
+  {
+   "file": "pruneReleaseAssets.yml",
+   "title": "Prune release assets",
+   "every": 24,
+   "why": "keeps dev-wheels under 1,000 assets; when it stops, PR wheel uploads fail",
+   "runs": [
+    {
+     "id": 38246785233,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38246785233",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-12T12:04:59Z",
+     "run_started_at": "2026-10-12T12:04:59Z",
+     "updated_at": "2026-10-12T12:05:07Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Prune release assets",
+     "attempt": 1
+    }
+   ],
+   "jobs": null
+  },
+  {
+   "file": "buildAndTestRyzenAISw.yml",
+   "title": "Ryzen AI Software build",
+   "every": 24,
+   "why": "the Docker build against Ryzen AI Software",
+   "runs": [],
+   "jobs": null
+  },
+  {
+   "file": "codeCoverage.yml",
+   "title": "Code coverage",
+   "every": 24,
+   "why": "the coverage report, as an artifact",
+   "runs": [],
+   "jobs": null
+  },
+  {
+   "file": "update-llvm.yml",
+   "title": "LLVM bump",
+   "every": 384,
+   "why": "opens the LLVM bump pull request on the 1st and 15th",
+   "runs": [],
+   "jobs": null
+  },
+  {
+   "file": "update-peano.yml",
+   "title": "Peano bump",
+   "every": 168,
+   "why": "opens the Peano bump pull request each Monday",
+   "runs": [
+    {
+     "id": 38256584186,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38256584186",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T13:34:07Z",
+     "run_started_at": "2026-10-12T13:34:07Z",
+     "updated_at": "2026-10-12T13:34:42Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Update Peano Version",
+     "attempt": 1
+    }
+   ],
+   "jobs": null
+  },
+  {
+   "file": "scorecard.yml",
+   "title": "OpenSSF Scorecard",
+   "every": 168,
+   "why": "the supply-chain scan, to the Security tab",
+   "runs": [],
+   "jobs": null
+  }
+ ]
+}
