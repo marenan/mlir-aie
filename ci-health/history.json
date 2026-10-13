@@ -75,21 +75,21 @@
      "main": 1.0,
      "pull_requests": null,
      "flaky": 0.0,
-     "minutes_median": 25.9,
+     "minutes_median": 7.5,
      "queued_median": 0.0
     },
     "buildAndTestPythons.yml": {
      "main": 1.0,
      "pull_requests": null,
      "flaky": 0.0,
-     "minutes_median": 18.0,
+     "minutes_median": 7.3,
      "queued_median": 0.0
     },
     "lintAndFormat.yml": {
-     "main": null,
+     "main": 1.0,
      "pull_requests": null,
      "flaky": 0.0,
-     "minutes_median": null,
+     "minutes_median": 2.7,
      "queued_median": 0.0
     }
    }
