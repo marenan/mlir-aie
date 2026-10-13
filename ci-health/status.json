@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-12T16:10:32+00:00",
+ "generated_at": "2026-10-13T00:59:39+00:00",
  "repo": "marenan/mlir-aie",
  "window_days": 14,
  "critical": [
@@ -322,8 +322,8 @@
     {
      "name": "SA placer seed sweep (CPU-only)",
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38273744475/job/114894072051",
-     "status": "in_progress",
-     "conclusion": null,
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-10-12T15:55:32Z",
      "started_at": "2026-10-12T15:55:35Z"
     },
@@ -625,13 +625,25 @@
    "why": "early warning that upstream LLVM broke the build",
    "runs": [
     {
+     "id": 38307793310,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38307793310",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-12T20:59:42Z",
+     "run_started_at": "2026-10-12T20:59:42Z",
+     "updated_at": "2026-10-12T23:06:18Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "MLIR Distro",
+     "attempt": 1
+    },
+    {
      "id": 38244392916,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38244392916",
-     "status": "in_progress",
-     "conclusion": null,
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-10-12T11:42:33Z",
      "run_started_at": "2026-10-12T11:42:33Z",
-     "updated_at": "2026-10-12T11:42:48Z",
+     "updated_at": "2026-10-12T16:12:18Z",
      "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
      "title": "MLIR Distro",
      "attempt": 1
