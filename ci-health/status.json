@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-13T23:08:07+00:00",
+ "generated_at": "2026-10-14T05:29:00+00:00",
  "repo": "marenan/mlir-aie",
  "window_days": 14,
  "critical": [
@@ -10,27 +10,84 @@
    "every": 24,
    "legs": true,
    "why": "lit and IRON tests on npu1 and npu2; the only hardware test of main",
-   "runs": 2,
+   "runs": 3,
    "main": {
     "passed": 0,
     "failed": 0,
     "rate": null
    },
-   "latest_main": null,
-   "newest_main": {
+   "latest_main": {
     "id": 38357485979,
     "url": "https://github.com/marenan/mlir-aie/actions/runs/38357485979",
-    "status": "queued",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "cancelled",
     "created_at": "2026-10-13T06:34:39Z",
     "run_started_at": "2026-10-13T06:34:39Z",
-    "updated_at": "2026-10-13T06:34:39Z",
+    "updated_at": "2026-10-14T04:36:01Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Build and Test with AIE tools on Ryzen AI",
     "attempt": 1
    },
-   "latest_main_jobs": null,
-   "main_runs": [],
+   "newest_main": {
+    "id": 38512223801,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38512223801",
+    "status": "queued",
+    "conclusion": null,
+    "created_at": "2026-10-14T04:35:59Z",
+    "run_started_at": "2026-10-14T04:35:59Z",
+    "updated_at": "2026-10-14T04:36:01Z",
+    "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+    "title": "Build and Test with AIE tools on Ryzen AI",
+    "attempt": 1
+   },
+   "latest_main_jobs": [
+    {
+     "name": "Pure HRX Build-Only (Windows, XRT-free packaging + HRX C++ compile)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38357485979/job/115163640933",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-13T06:34:40Z",
+     "started_at": "2026-10-13T06:34:43Z"
+    },
+    {
+     "name": "Run Tests and Examples on Ryzen AI (Built from Source) (aie2-4col)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38357485979/job/115163640963",
+     "status": "completed",
+     "conclusion": "cancelled",
+     "created_at": "2026-10-13T06:34:40Z",
+     "started_at": "2026-10-13T06:34:40Z"
+    },
+    {
+     "name": "Pure HRX Build and Run (XRT-free packaging + libhrx dispatch)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38357485979/job/115163641071",
+     "status": "completed",
+     "conclusion": "cancelled",
+     "created_at": "2026-10-13T06:34:40Z",
+     "started_at": "2026-10-13T06:34:40Z"
+    },
+    {
+     "name": "Run Tests and Examples on Ryzen AI (Built from Source) (aie2p-8col)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38357485979/job/115163641136",
+     "status": "completed",
+     "conclusion": "cancelled",
+     "created_at": "2026-10-13T06:34:40Z",
+     "started_at": "2026-10-13T06:34:40Z"
+    }
+   ],
+   "main_runs": [
+    {
+     "id": 38357485979,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38357485979",
+     "status": "completed",
+     "conclusion": "cancelled",
+     "created_at": "2026-10-13T06:34:39Z",
+     "run_started_at": "2026-10-13T06:34:39Z",
+     "updated_at": "2026-10-14T04:36:01Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Build and Test with AIE tools on Ryzen AI",
+     "attempt": 1
+    }
+   ],
    "pull_requests": {
     "passed": 0,
     "failed": 0,
@@ -56,27 +113,60 @@
    "every": 24,
    "legs": true,
    "why": "the same on a Windows Strix Halo machine",
-   "runs": 2,
+   "runs": 3,
    "main": {
     "passed": 0,
     "failed": 0,
     "rate": null
    },
-   "latest_main": null,
-   "newest_main": {
+   "latest_main": {
     "id": 38352617725,
     "url": "https://github.com/marenan/mlir-aie/actions/runs/38352617725",
-    "status": "queued",
-    "conclusion": null,
+    "status": "completed",
+    "conclusion": "cancelled",
     "created_at": "2026-10-13T05:40:38Z",
     "run_started_at": "2026-10-13T05:40:38Z",
-    "updated_at": "2026-10-13T05:40:38Z",
+    "updated_at": "2026-10-14T03:44:13Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Build and Test with AIE tools on Ryzen AI (Windows)",
     "attempt": 1
    },
-   "latest_main_jobs": null,
-   "main_runs": [],
+   "newest_main": {
+    "id": 38507780482,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38507780482",
+    "status": "queued",
+    "conclusion": null,
+    "created_at": "2026-10-14T03:44:12Z",
+    "run_started_at": "2026-10-14T03:44:12Z",
+    "updated_at": "2026-10-14T03:44:13Z",
+    "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+    "title": "Build and Test with AIE tools on Ryzen AI (Windows)",
+    "attempt": 1
+   },
+   "latest_main_jobs": [
+    {
+     "name": "Run Tests and Examples on Ryzen AI (Built from Source, Windows)",
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38352617725/job/115148213719",
+     "status": "completed",
+     "conclusion": "cancelled",
+     "created_at": "2026-10-13T05:40:38Z",
+     "started_at": "2026-10-13T05:40:38Z"
+    }
+   ],
+   "main_runs": [
+    {
+     "id": 38352617725,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38352617725",
+     "status": "completed",
+     "conclusion": "cancelled",
+     "created_at": "2026-10-13T05:40:38Z",
+     "run_started_at": "2026-10-13T05:40:38Z",
+     "updated_at": "2026-10-14T03:44:13Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Build and Test with AIE tools on Ryzen AI (Windows)",
+     "attempt": 1
+    }
+   ],
    "pull_requests": {
     "passed": 0,
     "failed": 0,
@@ -102,38 +192,50 @@
    "every": 24,
    "legs": false,
    "why": "compilers, assertions and RTTI on Linux and Windows",
-   "runs": 3,
+   "runs": 4,
    "main": {
-    "passed": 2,
+    "passed": 3,
     "failed": 0,
     "rate": 1.0
    },
    "latest_main": {
-    "id": 38349146051,
-    "url": "https://github.com/marenan/mlir-aie/actions/runs/38349146051",
+    "id": 38504507498,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38504507498",
     "status": "completed",
     "conclusion": "success",
-    "created_at": "2026-10-13T04:59:38Z",
-    "run_started_at": "2026-10-13T04:59:38Z",
-    "updated_at": "2026-10-13T05:07:10Z",
+    "created_at": "2026-10-14T03:06:14Z",
+    "run_started_at": "2026-10-14T03:06:14Z",
+    "updated_at": "2026-10-14T03:28:56Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Compile across platforms",
     "attempt": 1
    },
    "newest_main": {
-    "id": 38349146051,
-    "url": "https://github.com/marenan/mlir-aie/actions/runs/38349146051",
+    "id": 38504507498,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38504507498",
     "status": "completed",
     "conclusion": "success",
-    "created_at": "2026-10-13T04:59:38Z",
-    "run_started_at": "2026-10-13T04:59:38Z",
-    "updated_at": "2026-10-13T05:07:10Z",
+    "created_at": "2026-10-14T03:06:14Z",
+    "run_started_at": "2026-10-14T03:06:14Z",
+    "updated_at": "2026-10-14T03:28:56Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Compile across platforms",
     "attempt": 1
    },
    "latest_main_jobs": null,
    "main_runs": [
+    {
+     "id": 38504507498,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38504507498",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-14T03:06:14Z",
+     "run_started_at": "2026-10-14T03:06:14Z",
+     "updated_at": "2026-10-14T03:28:56Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Compile across platforms",
+     "attempt": 1
+    },
     {
      "id": 38349146051,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38349146051",
@@ -174,7 +276,7 @@
     "flaky": 0,
     "rate": 0.0
    },
-   "minutes_median": 7.5,
+   "minutes_median": 22.7,
    "minutes_p90": 25.9,
    "queued_median": 0.0
   },
@@ -184,38 +286,50 @@
    "every": 24,
    "legs": false,
    "why": "the tests on each supported Python",
-   "runs": 3,
+   "runs": 4,
    "main": {
-    "passed": 2,
+    "passed": 3,
     "failed": 0,
     "rate": 1.0
    },
    "latest_main": {
-    "id": 38347426868,
-    "url": "https://github.com/marenan/mlir-aie/actions/runs/38347426868",
+    "id": 38502889308,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38502889308",
     "status": "completed",
     "conclusion": "success",
-    "created_at": "2026-10-13T04:38:33Z",
-    "run_started_at": "2026-10-13T04:38:33Z",
-    "updated_at": "2026-10-13T04:45:51Z",
+    "created_at": "2026-10-14T02:47:39Z",
+    "run_started_at": "2026-10-14T02:47:39Z",
+    "updated_at": "2026-10-14T03:05:36Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Build and Test across Python versions",
     "attempt": 1
    },
    "newest_main": {
-    "id": 38347426868,
-    "url": "https://github.com/marenan/mlir-aie/actions/runs/38347426868",
+    "id": 38502889308,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38502889308",
     "status": "completed",
     "conclusion": "success",
-    "created_at": "2026-10-13T04:38:33Z",
-    "run_started_at": "2026-10-13T04:38:33Z",
-    "updated_at": "2026-10-13T04:45:51Z",
+    "created_at": "2026-10-14T02:47:39Z",
+    "run_started_at": "2026-10-14T02:47:39Z",
+    "updated_at": "2026-10-14T03:05:36Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Build and Test across Python versions",
     "attempt": 1
    },
    "latest_main_jobs": null,
    "main_runs": [
+    {
+     "id": 38502889308,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38502889308",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-14T02:47:39Z",
+     "run_started_at": "2026-10-14T02:47:39Z",
+     "updated_at": "2026-10-14T03:05:36Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Build and Test across Python versions",
+     "attempt": 1
+    },
     {
      "id": 38347426868,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38347426868",
@@ -256,7 +370,7 @@
     "flaky": 0,
     "rate": 0.0
    },
-   "minutes_median": 7.3,
+   "minutes_median": 17.9,
    "minutes_p90": 18.0,
    "queued_median": 0.0
   },
@@ -266,38 +380,50 @@
    "every": 24,
    "legs": false,
    "why": "clang-tidy, pyright and the docs checks",
-   "runs": 2,
+   "runs": 3,
    "main": {
-    "passed": 1,
+    "passed": 2,
     "failed": 0,
     "rate": 1.0
    },
    "latest_main": {
-    "id": 38345736931,
-    "url": "https://github.com/marenan/mlir-aie/actions/runs/38345736931",
+    "id": 38501255741,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38501255741",
     "status": "completed",
     "conclusion": "success",
-    "created_at": "2026-10-13T04:17:34Z",
-    "run_started_at": "2026-10-13T04:17:34Z",
-    "updated_at": "2026-10-13T04:20:18Z",
+    "created_at": "2026-10-14T02:29:04Z",
+    "run_started_at": "2026-10-14T02:29:04Z",
+    "updated_at": "2026-10-14T02:31:06Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Lint and Format",
     "attempt": 1
    },
    "newest_main": {
-    "id": 38345736931,
-    "url": "https://github.com/marenan/mlir-aie/actions/runs/38345736931",
+    "id": 38501255741,
+    "url": "https://github.com/marenan/mlir-aie/actions/runs/38501255741",
     "status": "completed",
     "conclusion": "success",
-    "created_at": "2026-10-13T04:17:34Z",
-    "run_started_at": "2026-10-13T04:17:34Z",
-    "updated_at": "2026-10-13T04:20:18Z",
+    "created_at": "2026-10-14T02:29:04Z",
+    "run_started_at": "2026-10-14T02:29:04Z",
+    "updated_at": "2026-10-14T02:31:06Z",
     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
     "title": "Lint and Format",
     "attempt": 1
    },
    "latest_main_jobs": null,
    "main_runs": [
+    {
+     "id": 38501255741,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38501255741",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-14T02:29:04Z",
+     "run_started_at": "2026-10-14T02:29:04Z",
+     "updated_at": "2026-10-14T02:31:06Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Lint and Format",
+     "attempt": 1
+    },
     {
      "id": 38345736931,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38345736931",
@@ -326,7 +452,7 @@
     "flaky": 0,
     "rate": 0.0
    },
-   "minutes_median": 2.7,
+   "minutes_median": 2.0,
    "minutes_p90": 2.7,
    "queued_median": 0.0
   }
@@ -766,6 +892,18 @@
    "why": "early warning that upstream LLVM broke the build",
    "runs": [
     {
+     "id": 38508494423,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38508494423",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-14T03:52:31Z",
+     "run_started_at": "2026-10-14T03:52:31Z",
+     "updated_at": "2026-10-14T04:47:56Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "MLIR Distro",
+     "attempt": 1
+    },
+    {
      "id": 38467386128,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38467386128",
      "status": "completed",
@@ -868,6 +1006,18 @@
    "why": "the Docker build against Ryzen AI Software",
    "runs": [
     {
+     "id": 38506469423,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38506469423",
+     "status": "completed",
+     "conclusion": "failure",
+     "created_at": "2026-10-14T03:28:58Z",
+     "run_started_at": "2026-10-14T03:28:58Z",
+     "updated_at": "2026-10-14T03:31:47Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Build and Test with Ryzen AI Sofware",
+     "attempt": 1
+    },
+    {
      "id": 38351281050,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38351281050",
      "status": "completed",
@@ -888,6 +1038,18 @@
    "every": 24,
    "why": "the coverage report, as an artifact",
    "runs": [
+    {
+     "id": 38506630834,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38506630834",
+     "status": "completed",
+     "conclusion": "success",
+     "created_at": "2026-10-14T03:30:46Z",
+     "run_started_at": "2026-10-14T03:30:46Z",
+     "updated_at": "2026-10-14T04:16:39Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "Code Coverage",
+     "attempt": 1
+    },
     {
      "id": 38351430435,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38351430435",
