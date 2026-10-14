@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-14T12:27:19+00:00",
+ "generated_at": "2026-10-14T17:38:06+00:00",
  "repo": "marenan/mlir-aie",
  "window_days": 14,
  "critical": [
@@ -488,11 +488,11 @@
     {
      "id": 38403873862,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38403873862",
-     "status": "pending",
+     "status": "queued",
      "conclusion": null,
      "created_at": "2026-10-13T13:18:16Z",
      "run_started_at": "2026-10-13T13:18:16Z",
-     "updated_at": "2026-10-13T13:18:17Z",
+     "updated_at": "2026-10-14T14:06:43Z",
      "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
      "title": "Nightly Kernel Checks on Ryzen AI",
      "attempt": 1
@@ -514,7 +514,7 @@
     {
      "name": "Kernel checks (aie2-4col)",
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38553303644/job/115816221553",
-     "status": "pending",
+     "status": "queued",
      "conclusion": null,
      "created_at": "2026-10-14T10:58:32Z",
      "started_at": "2026-10-14T10:58:32Z"
@@ -563,11 +563,11 @@
     {
      "id": 38273744475,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38273744475",
-     "status": "queued",
-     "conclusion": null,
+     "status": "completed",
+     "conclusion": "cancelled",
      "created_at": "2026-10-12T15:55:31Z",
      "run_started_at": "2026-10-12T15:55:31Z",
-     "updated_at": "2026-10-13T14:06:43Z",
+     "updated_at": "2026-10-14T14:06:03Z",
      "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
      "title": "Nightly Component Checks",
      "attempt": 1
@@ -577,8 +577,8 @@
     {
      "name": "SA placer seed sweep (CPU-only)",
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38562400549/job/115846469858",
-     "status": "in_progress",
-     "conclusion": null,
+     "status": "completed",
+     "conclusion": "success",
      "created_at": "2026-10-14T12:15:04Z",
      "started_at": "2026-10-14T12:15:07Z"
     },
@@ -601,11 +601,11 @@
     {
      "id": 38539379565,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38539379565",
-     "status": "in_progress",
-     "conclusion": null,
+     "status": "completed",
+     "conclusion": "failure",
      "created_at": "2026-10-14T09:01:58Z",
      "run_started_at": "2026-10-14T09:01:58Z",
-     "updated_at": "2026-10-14T09:02:02Z",
+     "updated_at": "2026-10-14T13:15:21Z",
      "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
      "title": "Router nightly tests",
      "attempt": 1
@@ -951,6 +951,18 @@
    "every": 4,
    "why": "early warning that upstream LLVM broke the build",
    "runs": [
+    {
+     "id": 38600287359,
+     "url": "https://github.com/marenan/mlir-aie/actions/runs/38600287359",
+     "status": "in_progress",
+     "conclusion": null,
+     "created_at": "2026-10-14T16:41:58Z",
+     "run_started_at": "2026-10-14T16:41:58Z",
+     "updated_at": "2026-10-14T16:42:22Z",
+     "head_sha": "766aca40deaf57b2a12b14e1e15985b878e7faae",
+     "title": "MLIR Distro",
+     "attempt": 1
+    },
     {
      "id": 38541640643,
      "url": "https://github.com/marenan/mlir-aie/actions/runs/38541640643",
